@@ -32,6 +32,10 @@ controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 let mySprite: Sprite = null
 tiles.setCurrentTilemap(tilemap`level`)
+mySprite = sprites.create(assets.image`idleLeft`, SpriteKind.Player)
+forever(function () {
+    scene.cameraFollowSprite(mySprite)
+})
 forever(function () {
     controller.moveSprite(mySprite)
 })
