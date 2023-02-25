@@ -4,7 +4,14 @@
     "dependencies": {
         "device": "*",
         "multiplayer": "*",
-        "animation": "*"
+        "animation": "*",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "radio-broadcast": "*",
+        "mouse": "*",
+        "keyboard": "*",
+        "controller": "*",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "pxt-tick-event": "github:microsoft/pxt-tick-event#v0.2.0"
     },
     "files": [
         "main.blocks",
@@ -27,5 +34,5 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
